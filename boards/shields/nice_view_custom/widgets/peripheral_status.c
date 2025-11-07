@@ -53,38 +53,49 @@ LV_IMG_DECLARE(hammerbeam27);
 LV_IMG_DECLARE(hammerbeam28);
 LV_IMG_DECLARE(hammerbeam29);
 LV_IMG_DECLARE(hammerbeam30);
+LV_IMG_DECLARE(b2_1_rotated);
 
 const lv_img_dsc_t *anim_imgs[] = {
     &hammerbeam1,
     &hammerbeam2,
     &hammerbeam3,
+    &b2_1_rotated,
     &hammerbeam4,
     &hammerbeam5,
     &hammerbeam6,
+    &b2_1_rotated,
     &hammerbeam7,
     &hammerbeam8,
     &hammerbeam9,
+    &b2_1_rotated,
     &hammerbeam10,
     &hammerbeam11,
     &hammerbeam12,
+    &b2_1_rotated,
     &hammerbeam13,
     &hammerbeam14,
     &hammerbeam15,
+    &b2_1_rotated,
     &hammerbeam16,
     &hammerbeam17,
     &hammerbeam18,
+    &b2_1_rotated,
     &hammerbeam19,
     &hammerbeam20,
     &hammerbeam21,
+    &b2_1_rotated,
     &hammerbeam22,
     &hammerbeam23,
     &hammerbeam24,
+    &b2_1_rotated,
     &hammerbeam25,
     &hammerbeam26,
     &hammerbeam27,
+    &b2_1_rotated,
     &hammerbeam28,
     &hammerbeam29,
     &hammerbeam30,
+    &b2_1_rotated,
 };
 
 
