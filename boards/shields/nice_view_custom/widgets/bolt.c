@@ -29,11 +29,9 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_BOLT uint
 
 const lv_image_dsc_t bolt = {
     .header = {
-        .magic = LV_IMAGE_HEADER_MAGIC,
         .cf = LV_COLOR_FORMAT_I2,
         .w = 11,
         .h = 18,
-        .stride = 3,
     },
     .data_size = sizeof(bolt_map),
     .data = bolt_map,
