@@ -92,8 +92,10 @@ void canvas_draw_line(lv_obj_t *canvas, const lv_point_t points[], uint32_t coun
     lv_layer_t layer;
     lv_canvas_init_layer(canvas, &layer);
     for (uint32_t i = 1; i < count; i++) {
-        dsc->p1 = points[i - 1];
-        dsc->p2 = points[i];
+        dsc->p1.x = points[i - 1].x;
+        dsc->p1.y = points[i - 1].y;
+        dsc->p2.x = points[i].x;
+        dsc->p2.y = points[i].y;
         lv_draw_line(&layer, dsc);
     }
     lv_canvas_finish_layer(canvas, &layer);
